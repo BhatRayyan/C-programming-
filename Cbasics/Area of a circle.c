@@ -1,12 +1,15 @@
 #include <stdio.h>
 
-int main(){
+int main() {
+    float radius, area;
+    float pi = 3.14159;
 
-// Bigger number of given 2 numbers
+    printf("Enter the radius: ");
+    scanf("%f", &radius);
+
+    area = pi * radius * radius;
+
+    printf("Area: %f\n", area);
 
     return 0;
 }
-
-
-
-
