@@ -8,9 +8,9 @@ int main() {
     if (a == b && b == c) {
         printf("All numbers are equal: %d\n", a);
     }
-    else if (a > b && a > c) {
+    else if (a >= b && a >= c) {
         printf("The largest number is: %d\n", a);
-    } else if (b > a && b > c) {
+    } else if (b >= a && b >= c) {
         printf("The largest number is: %d\n", b);
     } else {
         printf("The largest number is: %d\n", c);
